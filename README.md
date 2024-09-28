@@ -53,7 +53,7 @@ To run the project:
     Training will begin, and the accuracy and loss plots will be displayed during the process.
     After training, evaluate the model on the test set, and visualize the confusion matrix and misclassified digits.
 
-Dataset
+## Dataset
 
 The dataset used is MNIST (Modified National Institute of Standards and Technology), a widely used benchmark dataset in deep learning and computer vision for handwritten digit recognition. It contains:
 
@@ -69,7 +69,7 @@ from tensorflow.keras.datasets import mnist
 
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
-Model Summary
+## Model Summary
 
     Architecture: 2 Dense Layers (fully connected)
     Activation Functions: ReLU, Softmax
@@ -83,18 +83,18 @@ Model Layers (Example):
     Hidden Layer: Dense (128 units, ReLU activation)
     Output Layer: Dense (10 units, Softmax activation)
 
-Training Results:
+# Training Results:
 
     Training Accuracy: ~99%
     Test Accuracy: ~98%
     Loss: Categorical Cross-Entropy
 
-Visualization and Results
+# Visualization and Results
 
     Confusion Matrix: Displays the model's accuracy for each digit (true vs. predicted labels).
     Misclassified Digits: Examples of digits that the model incorrectly classified are shown, with both predicted and true labels.
 
-Conclusion
+## Conclusion
 
 This project demonstrates the application of a neural network in classifying handwritten digits. While the model achieves high accuracy, misclassifications are still present, often involving visually similar digits such as 9 and 4, or 5 and 6. Further improvements can be made by experimenting with more complex architectures, such as Convolutional Neural Networks (CNNs).
 
