@@ -97,7 +97,3 @@ Model Layers (Example):
 
 This project demonstrates the application of a neural network in classifying handwritten digits. While the model achieves high accuracy, misclassifications are still present, often involving visually similar digits such as 9 and 4, or 5 and 6. Further improvements can be made by experimenting with more complex architectures, such as Convolutional Neural Networks (CNNs).
 
-typescript
-
-
-You can paste this directly into your `README.md` file. Let me know if you need any further 
