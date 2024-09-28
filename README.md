@@ -1,4 +1,3 @@
-# ElSangour-MNSIT_digits_Classification
 # MNIST Digit Classification
 
 ## Overview
@@ -83,13 +82,13 @@ Model Layers (Example):
     Hidden Layer: Dense (128 units, ReLU activation)
     Output Layer: Dense (10 units, Softmax activation)
 
-# Training Results:
+### Training Results:
 
     Training Accuracy: ~99%
     Test Accuracy: ~98%
     Loss: Categorical Cross-Entropy
 
-# Visualization and Results
+### Visualization and Results
 
     Confusion Matrix: Displays the model's accuracy for each digit (true vs. predicted labels).
     Misclassified Digits: Examples of digits that the model incorrectly classified are shown, with both predicted and true labels.
